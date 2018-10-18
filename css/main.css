@@ -1,0 +1,24 @@
+body {
+    box-sizing: border-box;
+}
+
+.main-container {
+    background-image: url("http://mercercognitivepsychology.pbworks.com/f/1384897684/colorful_note.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+#lyric-button {
+    margin-top: 15px;
+}
+
+.lyric-container {
+    width: 70%;
+    background-color: blue;
+    color: white;
+}
